@@ -1,0 +1,5 @@
+error: key with no value, expected `=`
+ --> Cargo.toml:7:9
+  |
+7 | unicode - segmentation = "1.7.1"
+  |         ^
