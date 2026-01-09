@@ -1,7 +1,8 @@
     Blocking waiting for file lock on package cache
-    Blocking waiting for file lock on shared package cache
-   0.007579209s  INFO prepare_target{force=false package_id=Charpter_7 v0.1.0 (/Users/olaoluwatunmise/rust_lang_book/Charpter_7) target="another_one"}: cargo::core::compiler::fingerprint: fingerprint error for Charpter_7 v0.1.0 (/Users/olaoluwatunmise/rust_lang_book/Charpter_7)/Check { test: false }/TargetInner { name: "another_one", doc: true, ..: with_path("/Users/olaoluwatunmise/rust_lang_book/Charpter_7/src/bin/another_one.rs", Edition2024) }
-   0.007630125s  INFO prepare_target{force=false package_id=Charpter_7 v0.1.0 (/Users/olaoluwatunmise/rust_lang_book/Charpter_7) target="another_one"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/olaoluwatunmise/rust_lang_book/Charpter_7/target/debug/.fingerprint/Charpter_7-0bea7541fe28f33c/bin-another_one`
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   0.011994416s  INFO prepare_target{force=false package_id=Charpter_7 v0.1.0 (/Users/olaoluwatunmise/rust_lang_book/Charpter_7) target="another_one"}: cargo::core::compiler::fingerprint: fingerprint error for Charpter_7 v0.1.0 (/Users/olaoluwatunmise/rust_lang_book/Charpter_7)/Check { test: false }/TargetInner { name: "another_one", doc: true, ..: with_path("/Users/olaoluwatunmise/rust_lang_book/Charpter_7/src/bin/another_one.rs", Edition2024) }
+   0.012511458s  INFO prepare_target{force=false package_id=Charpter_7 v0.1.0 (/Users/olaoluwatunmise/rust_lang_book/Charpter_7) target="another_one"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/olaoluwatunmise/rust_lang_book/Charpter_7/target/debug/.fingerprint/Charpter_7-0bea7541fe28f33c/bin-another_one`
 
 Caused by:
     No such file or directory (os error 2)
